@@ -10,7 +10,7 @@
 Увімкніть музику, коли вам потрібно;
 Ви можете вибрати музику для відтворення (за замовчуванням: sound3.mp3).
 
-![Image alt](https://github.com/Last-Arkhangel/-SchoolBell-/blob/main/program.JPG)
+![Image alt](https://github.com/Last-Arkhangel/College_Bell/blob/main/program.JPG)
 
 
 Щоб створити файл exe, використовуйте:
