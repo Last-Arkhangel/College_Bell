@@ -10,7 +10,8 @@
 Увімкніть музику, коли вам потрібно;
 Ви можете вибрати музику для відтворення (за замовчуванням: sound3.mp3).
 
-<img src="program.JPG">
+![Иллюстрация к проекту](https://github.com/Last-Arkhangel/-SchoolBell-/raw/master/image/image.png)
+
 
 Щоб створити файл exe, використовуйте:
 ```
