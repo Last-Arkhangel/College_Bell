@@ -97,6 +97,9 @@ def file_open():
 	default_music = filedialog.askopenfilename()
 	entry_file.insert(END, default_music)
 
+def quit_win():
+	window.destroy()
+
 def quit_window(icon):
 	icon.stop()
 	window.destroy()
@@ -146,14 +149,14 @@ if __name__ == '__main__':
 
 
 		# Make label for Time now	
-	Label(window, text="ЧАС ЗАРАЗ:", font=("Ubuntu", 16)).grid(row=1, column=5)
+	Label(window, text="КОТРА ГОДИНА:", font=("Ubuntu", 16)).grid(row=0, column=5)
 	lable_clock = Label(window, background="#F23A3A", font=("Ubuntu", 16))
-	lable_clock.grid(row=2, column=5)
+	lable_clock.grid(row=1, column=5)
 
 	
-	Label(window, text = "ЧАС ДЗВОНИТИ:", font=("Ubuntu", 16)).grid(row=4, column=5)
+	Label(window, text = "ДЗВІНОК ЧЕРЕЗ:", width = 23, font=("Ubuntu", 16)).grid(row=3, column=5)
 	lable_belltime = Label(window, background="#F23A3A")
-	lable_belltime.grid(row=5, column=5)
+	lable_belltime.grid(row=4, column=5)
 	lable_belltime.config(text = "???", font=("Ubuntu", 16))
 
 	tick()
@@ -168,8 +171,10 @@ if __name__ == '__main__':
 	tk.Button(window, text = "Дзвонити...", font=("Ubuntu", 14), command = playagain).grid(row=7, column=3)
 
 	Label(window, text="    ", font=("Ubuntu", 10)).grid(row=6, column=4)
-	Label(window, text="© 2022, Last-Arkhangel", width = 33, font=("Ubuntu", 10)).grid(row=7, column=5)
-    
+	Label(window, text="© 2022, Last-Arkhangel", font=("Ubuntu", 10)).grid(row=7, column=5, sticky="ws")
+
+	tk.Button(window, text = "Вихід", font=("Ubuntu", 10), command = quit_win).grid(row=7, column=5, sticky="es")
+
 	window.protocol('WM_DELETE_WINDOW', hide_window)
 	window.mainloop()
 
