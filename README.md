@@ -17,7 +17,7 @@ pip install -r requirements.txt
 4. Увімкніть дзвінок, коли вам потрібно;
 5. Ви можете вибрати музику для відтворення (за замовчуванням: sound3.mp3).
 
-![Image alt](https://github.com/Last-Arkhangel/College_Bell/blob/main/program.JPG)
+![Image alt](https://github.com/Last-Arkhangel/College_Bell/blob/main/program2.JPG)
 
 
 ## Щоб створити файл exe, використовуйте:
