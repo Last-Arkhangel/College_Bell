@@ -29,5 +29,6 @@ pip install pyinstaller
 pyinstaller -F -w --icon=bell.ico --add-data="bell.ico;." Begin.py
 ```
 
+
 Оригінальний репозиторій:
 [Посилання](https://github.com/CyberHusky/School-Bell-Ubuntu-Raspberry)
