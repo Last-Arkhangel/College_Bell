@@ -3,3 +3,5 @@ playsound
 requests
 tkinter
 pillow
+socket-singleton
+pyinstaller
