@@ -20,13 +20,9 @@ pip install -r requirements.txt
 ![Image alt](https://github.com/Last-Arkhangel/College_Bell/blob/main/program2.JPG)
 
 
-## Щоб створити файл exe, використовуйте:
+## Щоб створити файл exe, використовуйте команду pyinstaller:
 ```
-pip install pyinstaller
-```
-з командою:
-```
-pyinstaller -F -w -n "Begin - 80" -i bell.ico --add-data="bell.ico;." Begin.py
+pyinstaller -F -w -n "Дзвінки пар - 80 хвилин" -i bell.ico --add-data="bell.ico;." Begin.py
 ```
 
 
