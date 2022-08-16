@@ -14,6 +14,8 @@ from time 		  import gmtime, strftime, localtime, strptime
 from pystray import MenuItem
 import pystray
 
+from Socket_Singleton import Socket_Singleton
+
 # ================ SETUP ====================
 
 fields = ['Пара 1:' , 'Пара 2:', 'Пара 3:', 'Пара 4:' , 'Пара 5:']
@@ -174,7 +176,8 @@ if __name__ == '__main__':
 	Label(window, text="© 2022, Last-Arkhangel", font=("Ubuntu", 10)).grid(row=7, column=5, sticky="ws")
 
 	tk.Button(window, text = "Вихід", font=("Ubuntu", 10), command = quit_win).grid(row=7, column=5, sticky="es")
-
+	
+	Socket_Singleton()
 	window.protocol('WM_DELETE_WINDOW', hide_window)
 	window.mainloop()
 
