@@ -26,7 +26,7 @@ pip install pyinstaller
 ```
 з командою:
 ```
-pyinstaller -F -w --icon=bell.ico --add-data="bell.ico;." Begin.py
+pyinstaller -F -w -n "Begin - 80" -i bell.ico --add-data="bell.ico;." Begin.py
 ```
 
 
